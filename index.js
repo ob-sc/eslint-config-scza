@@ -8,7 +8,6 @@ module.exports = {
       },
     ],
     'arrow-parens': ['warn', 'always'],
-    'consistent-return': 'off', // nope
     curly: ['warn', 'multi-line'],
     'default-case': 'error',
     'default-case-last': 'warn',
@@ -105,7 +104,6 @@ module.exports = {
     'no-throw-literal': 'error',
     'no-undef': 'error',
     'no-undef-init': 'error',
-    'no-undefined': 'error',
     'no-unexpected-multiline': 'error',
     'no-unreachable': 'error',
     'no-unreachable-loop': 'error',
