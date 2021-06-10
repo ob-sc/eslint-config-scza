@@ -8,7 +8,7 @@ module.exports = {
       },
     ],
     'arrow-parens': ['warn', 'always'],
-    'consistent-return': 'error',
+    'consistent-return': 'off', // nope
     curly: ['warn', 'multi-line'],
     'default-case': 'error',
     'default-case-last': 'warn',
@@ -142,10 +142,10 @@ module.exports = {
     'prefer-template': 'warn',
     'require-yield': 'error',
     'sort-imports': [
-      'error',
+      'warn',
       {
         ignoreCase: false,
-        ignoreDeclarationSort: false,
+        ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple'],
         allowSeparatedGroups: false,
