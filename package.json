@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-scza",
+  "version": "1.0.0",
+  "description": "eslint config für Zeiterfassung",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ob-sc/eslint-config-scza.git"
+  },
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "eslint": ">= 7.20.0"
+  }
+}
