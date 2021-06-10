@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-scza",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config für Zeiterfassung",
   "main": "index.js",
   "scripts": {
