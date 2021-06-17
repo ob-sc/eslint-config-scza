@@ -88,6 +88,7 @@ module.exports = {
         message: 'Use the exponentiation operator (**) instead.',
       },
     ],
+    'no-restricted-syntax': ['warn', "CallExpression[callee.name='debug']"],
     'no-return-assign': ['error', 'always'],
     'no-return-await': 'error',
     'no-script-url': 'error',
