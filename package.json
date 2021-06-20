@@ -1,12 +1,13 @@
 {
   "name": "eslint-config-scza",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "eslint config für SC Zeiterfassung",
   "main": "index.js",
   "scripts": {
     "patch": "yarn version --patch",
     "minor": "yarn version --minor",
     "major": "yarn version --major",
+    "version": "git add -A",
     "postversion": "git push && git push --tags"
   },
   "repository": {
